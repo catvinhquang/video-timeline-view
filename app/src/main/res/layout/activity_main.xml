@@ -2,11 +2,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <vng.quangcv.videotimelineview.VideoTimelineView
-        android:id="@+id/video_timeline_view"
+    <vng.quangcv.videotimelineview.VideoTrimmerView
+        android:id="@+id/trimmer_view"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#000"
-        android:layout_centerInParent="true" />
+        android:layout_height="match_parent" />
 
 </RelativeLayout>
